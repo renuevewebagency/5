@@ -1,0 +1,144 @@
+*{
+    cursor: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+.navbar {
+    background-color: #000000 !important;
+  }
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+
+  
+}
+.content-banner-h1{
+    font-family: 'Arimo', sans-serif;
+    font-size: 90px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.content-banner-button{
+display: flex;
+    justify-content: center;
+}
+.content-banner-paragraph{
+width: 400px;
+    display: flex;
+align-items: flex-end;
+margin-left: auto;
+margin-top: 40px;
+
+}
+.paragraph{
+    font-family: 'Arimo', sans-serif;
+    font-size: 21px;
+padding: 10px;
+text-align: end;
+}
+
+a{
+    color:  white!important;
+    text-decoration: none !important;
+}
+section{
+    
+    background-color:#ffffff;
+}
+.btn-outline-danger {
+    color: #fff;
+background-color: black !important;
+border: none !important;
+    width: 250px;
+    height: 48px;
+    font-family: "Arial Rounded MT Bold", "Helvetica Roun ded", Arial, sans-serif;
+    font-size: 24px;
+  
+  
+  
+  }
+  .btn-outline-danger:hover {
+
+    border-color: white !important;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #D82948;
+    border-color: white !important;
+  }
+  .about-section{
+    background-color: #fe7c00  ;    
+       position: relative;
+  }
+  .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+
+
+  }
+  .about-content-h1{
+    font-family: 'Arimo', sans-serif;
+    font-size: 54px;
+    color: #000000;
+    margin-bottom: 40px;
+transform: translateX(-550px);
+  }
+  .about-content-paragraph{
+    width: 400px;
+        display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-top: 40px;
+    transform: translateX(-550px);
+    }
+  .about-paragraph{
+    font-family: 'Arimo', sans-serif;
+    font-size: 21px;
+padding: 10px;
+text-align: justify;
+  }
+  .img{
+      position: absolute;
+      height: 100vh !important;
+      width: 50%;
+      object-fit: cover;
+      right: 0;
+      top: 0;
+      z-index: 0;
+      
+  
+  }
+ 
+
+  .cursor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 2000;
+    user-select: none;
+    pointer-events: none;
+}
+
+.follower{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #6eff00;
+    border-radius: 50%;
+    opacity: 0.7;
+    user-select: none;
+    pointer-events: none;
+}
